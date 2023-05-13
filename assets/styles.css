@@ -1,0 +1,60 @@
+/* Universal Selector */
+* {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #1f1b18;
+}
+
+#name {
+ text-align: center;
+ font-weight: bold;
+ background-color: antiquewhite;
+ height: auto;
+ margin-top: 0cm;
+ margin-bottom: 0cm;
+ float: left;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0cm;
+}
+
+h2 {
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0cm;
+    margin-left: 54rem;
+}
+
+nav {
+background-color: black;
+}
+
+li {
+  height: 1rem;
+  width: 6rem;  
+  list-style-type: none;
+   background-color: antiquewhite;
+}
+
+.nav-items {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: black;
+    border-style: double;
+    border-radius: 5cm;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
