@@ -1,79 +1,98 @@
 /* Universal Selector */
 * {
-    font-family: sans-serif;
-}
-
-header {
-    height: 10cm; 
+  font-family: sans-serif;
 }
 
 #name {
- text-align: center;
- font-weight: bold;
- color: rgb(192, 160, 119);
- height: auto;
- margin-top: 0cm;
- margin-bottom: 0cm;
- float: left;
- font-size: 3rem;
- margin-left: 1cm;
- text-decoration: double;
- text-decoration-color: rgb(45, 42, 31);
- text-decoration-line: underline;
- align-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(192, 160, 119);
+  height: auto;
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  float: left;
+  font-size: 3rem;
+  margin-left: 1cm;
+  text-decoration: double;
+  text-decoration-color: rgb(45, 42, 31);
+  text-decoration-line: underline;
+  align-content: center;
+}
+
+header {
+  height: 10cm;
 }
 
 h1 {
-    font-size: 28px;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0cm;
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0cm;
 }
 
 h2 {
-    font-size: 23px;
-    font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0cm;
-    margin-left: 54rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0cm;
+  margin-left: 54rem;
 }
 
 nav {
-background-color: black;
-display: flex;
+  background-color: black;
+  display: flex;
 }
 
 li {
   height: 1rem;
-  width: 6rem;  
+  width: 6rem;
   list-style-type: none;
-   background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
 .nav-items {
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-color: black;
-    border-style: double;
-    border-radius: 5cm;
-    text-align: center;
-    padding: 8px;
-    font-weight: bold;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-color: black;
+  border-style: double;
+  border-radius: 5cm;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
 }
 
 #header-text {
-    color: aliceblue;
-    text-align: right;
-    margin-right: 2cm;
+  color: aliceblue;
+  text-align: right;
+  margin-right: 2cm;
 }
 
 #header-background {
-    background-image: url(./candle.jpg);
-    background-size: 1629px 377.94px;
-    background-repeat: no-repeat;
+  background-image: url(./candle.jpg);
+  background-size: 1629px 377.94px;
+  background-repeat: no-repeat;
+}
+
+aside h2 {
+    float: left;
+    height: 4cm;
+    width: 4cm;
+    border-right: 0.08cm solid black;
+    margin-top: 0.5cm;
+    margin-left: 1.5cm;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+p {
+    margin-top: 0.5cm;
+  margin-left: 6cm; 
+  margin-right: 2cm;
+  font-family: monospace;
 }
