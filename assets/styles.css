@@ -74,25 +74,101 @@ li {
 
 #header-background {
   background-image: url(./candle.jpg);
-  background-size: 1629px 377.94px;
+  background-size: 1889px 377.94px;
   background-repeat: no-repeat;
 }
 
 aside h2 {
-    float: left;
-    height: 4cm;
-    width: 4cm;
-    border-right: 0.08cm solid black;
-    margin-top: 0.5cm;
-    margin-left: 1.5cm;
-    text-align: center;
-    vertical-align: middle;
-    
+  float: left;
+  height: 4cm;
+  width: 4cm;
+  border-right: 0.08cm solid black;
+  margin-top: 0.5cm;
+  margin-left: 1.5cm;
+  text-align: center;
+  vertical-align: middle;
+}
+
+aside h3 {
+  float: left;
+  height: 4cm;
+  width: 4cm;
+  border-right: 0.08cm solid black;
+  margin-top: 2.5cm;
+  margin-left: -4.07cm;
+  text-align: center;
+  vertical-align: middle;
 }
 
 p {
-    margin-top: 0.5cm;
-  margin-left: 6cm; 
+  margin-top: 0.5cm;
+  margin-left: 6cm;
   margin-right: 2cm;
   font-family: monospace;
+}
+
+#aside-my-work {
+  float: left;
+  position: relative;
+  height: 4cm;
+  width: 4cm;
+  border-right: 0.08cm solid black;
+  margin-top: 2.5cm;
+  margin-left: -4.07cm;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.container-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1889px;
+  margin-top: 0.5cm;
+  margin-left: 6cm;
+  margin-right: 2cm;
+  font-family: monospace;
+}
+
+#main-box {
+  background-color: aqua;
+  width: 60%;
+  height: 5cm;
+  align-items: center;
+  align-content: center;
+}
+
+#box2 {
+  background-color: green;
+  width: 25%;
+  height: 5cm;
+  align-items: center;
+  align-content: center;
+}
+
+#box3 {
+  background-color: rgb(168, 44, 60);
+  width: 25%;
+  height: 5cm;
+  align-items: center;
+  align-content: center;
+}
+
+#box4 {
+  background-color: rgb(105, 29, 96);
+  width: 25%;
+  height: 5cm;
+  align-items: center;
+  align-content: center;
+}
+
+#box5 {
+  background-color: rgb(151, 112, 38);
+  width: 25%;
+  height: 5cm;
+  align-items: center;
+  align-content: center;
 }
