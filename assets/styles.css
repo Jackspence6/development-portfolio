@@ -87,7 +87,7 @@ li {
 }
 
 .header-background {
-  background-image: url(./candle.jpg);
+  background-image: url(./images/candle.jpg);
   background-size: 1889px 377.94px;
   background-repeat: no-repeat;
 }
@@ -151,9 +151,9 @@ p {
 }
 
 #main-box {
-  background-image: url(./Screenshot\ 2023-05-14\ at\ 13.08.30.png);
+  background-image: url(./images/horiseon.png);
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   background-clip: content-box;
   background-size: cover;
   width: 60%;
@@ -166,7 +166,7 @@ p {
 }
 
 #box2 {
-  background-image: url(./js.jpeg);
+  background-image: url(./images/js.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -180,7 +180,7 @@ p {
 }
 
 #box3 {
-  background-image: url(./quiz.jpeg);
+  background-image: url(./images/quiz.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -194,7 +194,7 @@ p {
 }
 
 #box4 {
-  background-image: url(./scheduler.jpeg);
+  background-image: url(./images/scheduler.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -208,7 +208,7 @@ p {
 }
 
 #box5 {
-  background-image: url(./weather.png);
+  background-image: url(./images/weather.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -234,7 +234,7 @@ p {
 #contact-me1 {
   border-style: solid;
   border-radius: 10px;
-  background-image: url(./Phone.png);
+  background-image: url(./images/phone.png);
   background-position: center;
   background-size: cover;
   width: 4.5cm;
@@ -247,7 +247,7 @@ p {
 #contact-me2 {
   border-style: solid;
   border-radius: 10px;
-  background-image: url(./Github.png);
+  background-image: url(./images/github.png);
   background-position: center;
   background-size: cover;
   width: 4.5cm;
@@ -259,7 +259,7 @@ p {
 #contact-me3 {
   border-style: solid;
   border-radius: 10px;
-  background-image: url(./Mail.png);
+  background-image: url(./images/mail.png);
   background-position: center;
   background-size: cover;
   width: 4.5cm;
@@ -271,7 +271,7 @@ p {
 #contact-me4 {
   border-style: solid;
   border-radius: 10px;
-  background-image: url(./linkedin.png);
+  background-image: url(./images/linkedin.png);
   background-position: center;
   background-size: cover;
   width: 4.5cm;
