@@ -54,14 +54,29 @@ li {
   height: 1rem;
   width: 6rem;
   list-style-type: none;
-  
+}
+
+section a {
+  display: flex;
 }
 
 .nav-items {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-color: black;
+  border-color: rgb(156, 102, 64);
   border-style: double;
+  width: 6rem;
+  height: 25px;
+  background-color: bisque;
   border-radius: 5cm;
+  display: flex;
+  margin-right: 1cm;
+  justify-content: center;
+  text-decoration: none;
+  color: #968e7f;
+  font-weight: bold;
+}
+
+#nav-container {
   display: flex;
   margin-right: 1cm;
 }
@@ -296,7 +311,8 @@ p {
 }
 
 @media screen and (max-width: 992px) {
-  h1 {}
+  h1 {
+  }
 }
 
 /* @media screen and (max-width: 768px) {
