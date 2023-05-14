@@ -151,9 +151,11 @@ p {
 }
 
 #main-box {
-  background-image: url(./html:css.jpeg);
+  background-image: url(./Screenshot\ 2023-05-14\ at\ 13.08.30.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-clip: content-box;
+  background-size: cover;
   width: 60%;
   height: 5cm;
   align-items: center;
@@ -167,6 +169,7 @@ p {
   background-image: url(./js.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 25%;
   height: 5cm;
   align-items: center;
@@ -180,6 +183,7 @@ p {
   background-image: url(./quiz.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 25%;
   height: 5cm;
   align-items: center;
@@ -193,6 +197,7 @@ p {
   background-image: url(./scheduler.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 25%;
   height: 5cm;
   align-items: center;
@@ -206,6 +211,7 @@ p {
   background-image: url(./weather.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 25%;
   height: 5cm;
   align-items: center;
@@ -228,7 +234,9 @@ p {
 #contact-me1 {
   border-style: solid;
   border-radius: 10px;
-  background-color: darkolivegreen;
+  background-image: url(./Phone.png);
+  background-position: center;
+  background-size: cover;
   width: 4.5cm;
   text-align: center;
   margin-right: 2cm;
@@ -239,7 +247,9 @@ p {
 #contact-me2 {
   border-style: solid;
   border-radius: 10px;
-  background-color: darkolivegreen;
+  background-image: url(./Github.png);
+  background-position: center;
+  background-size: cover;
   width: 4.5cm;
   text-align: center;
   margin-right: 2cm;
@@ -249,7 +259,9 @@ p {
 #contact-me3 {
   border-style: solid;
   border-radius: 10px;
-  background-color: darkolivegreen;
+  background-image: url(./Mail.png);
+  background-position: center;
+  background-size: cover;
   width: 4.5cm;
   text-align: center;
   margin-right: 2cm;
@@ -259,7 +271,9 @@ p {
 #contact-me4 {
   border-style: solid;
   border-radius: 10px;
-  background-color: darkolivegreen;
+  background-image: url(./linkedin.png);
+  background-position: center;
+  background-size: cover;
   width: 4.5cm;
   text-align: center;
   margin-right: 2cm;
@@ -276,3 +290,23 @@ p {
   text-align: center;
   justify-content: left;
 }
+
+#contact-me1 a {
+  background-color: aliceblue ;
+  border-radius: 10px;
+} 
+
+#contact-me2 a {
+  background-color: aliceblue ;
+  border-radius: 10px;
+} 
+
+#contact-me3 a {
+  background-color: aliceblue ;
+  border-radius: 10px;
+} 
+
+#contact-me4 a {
+  background-color: aliceblue ;
+  border-radius: 10px;
+} 
