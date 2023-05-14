@@ -9,6 +9,7 @@
   background-color: rgb(18, 18, 17);
   padding: 10px 40px 10px 40px;
   text-align: left;
+  display: block;
   align-items: center;
   white-space: nowrap;
   color: #e4dec4;
@@ -16,10 +17,15 @@
 
 header {
   height: 10cm;
+  background-image: url(./images/candle.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  display: flex;
+  display: block;
   font-size: 28px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -39,8 +45,9 @@ ul {
 nav {
   background-color: black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 li {
@@ -56,25 +63,17 @@ li {
   border-style: double;
   border-radius: 5cm;
   display: flex;
-
   margin-right: 1cm;
 }
 
 #header-text {
   color: #bfaf5c;
-  text-align: right;
-  margin-right: 2cm;
+  text-align: end;
+  margin: 0%;
   position: relative;
   top: 15rem;
-  right: 0;
   font-family: fantasy;
   font-size: 85px;
-}
-
-.header-background {
-  background-image: url(./images/candle.jpg);
-  background-size: 1889px 377.94px;
-  background-repeat: no-repeat;
 }
 
 aside h2 {
