@@ -153,7 +153,7 @@ p {
 #main-box {
   background-image: url(./Screenshot\ 2023-05-14\ at\ 13.08.30.png);
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-clip: content-box;
   background-size: cover;
   width: 60%;
@@ -310,3 +310,16 @@ p {
   background-color: aliceblue ;
   border-radius: 10px;
 } 
+
+@media screen and (max-width: 992px) {
+ h1
+ }
+}
+
+/* @media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+ 
+} */
