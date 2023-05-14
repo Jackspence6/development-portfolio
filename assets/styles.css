@@ -311,15 +311,28 @@ p {
 }
 
 @media screen and (max-width: 992px) {
- nav {
-  
+ nav { 
+  flex-direction: column;
+  margin-right: 0%;
  } 
+  #header-text {
+    position: relative;
+    text-align: center;
 }
-
-/* @media screen and (max-width: 768px) {
- 
+  p {
+    font-size: 75%;
+  }
+ .container-work {
+  width: 100%;
+ }
+ aside h3 {
+  height: 20cm;
+  width: 4cm;
+  border-right: 0.08cm solid black;
+  margin-top: -19.5cm;
+  margin-right: 24.4cm;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+ }
 }
-
-@media screen and (max-width: 576px) {
- 
-} */
