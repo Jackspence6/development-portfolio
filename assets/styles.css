@@ -4,22 +4,14 @@
 }
 
 #name {
-  text-align: center;
+  font-size: 2.8em;
   font-weight: bold;
-  color: rgb(192, 160, 119);
-  height: auto;
-  margin-top: 10px;
-  margin-left: 1cm;
-  margin-bottom: 0cm;
-  float: left;
-  font-size: 3rem;
-  margin-left: 1cm;
-  text-decoration: double;
-  text-decoration-color: rgb(45, 42, 31);
-  text-decoration-line: underline;
-  align-content: center;
-  position: relative;
-  right: 9cm;
+  background-color: rgb(18, 18, 17);
+  padding: 10px 40px 10px 40px;
+  text-align: left;
+  align-items: center;
+  white-space: nowrap;
+  color: #e4dec4;
 }
 
 header {
@@ -27,6 +19,7 @@ header {
 }
 
 h1 {
+  display: flex;
   font-size: 28px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -47,9 +40,7 @@ nav {
   background-color: black;
   display: flex;
   justify-content: space-evenly;
-  position: relative;
   width: 100%;
-  margin-right: 1cm;
 }
 
 li {
@@ -60,18 +51,12 @@ li {
 }
 
 .nav-items {
-  font-size: 1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-color: black;
   border-style: double;
   border-radius: 5cm;
-  text-align: center;
-  padding: 10px;
-  font-weight: bold;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: auto;
+
   margin-right: 1cm;
 }
 
@@ -79,8 +64,8 @@ li {
   color: #bfaf5c;
   text-align: right;
   margin-right: 2cm;
-  position: absolute;
-  bottom: 33rem;
+  position: relative;
+  top: 15rem;
   right: 0;
   font-family: fantasy;
   font-size: 85px;
@@ -292,28 +277,27 @@ p {
 }
 
 #contact-me1 a {
-  background-color: aliceblue ;
+  background-color: aliceblue;
   border-radius: 10px;
-} 
+}
 
 #contact-me2 a {
-  background-color: aliceblue ;
+  background-color: aliceblue;
   border-radius: 10px;
-} 
+}
 
 #contact-me3 a {
-  background-color: aliceblue ;
+  background-color: aliceblue;
   border-radius: 10px;
-} 
+}
 
 #contact-me4 a {
-  background-color: aliceblue ;
+  background-color: aliceblue;
   border-radius: 10px;
-} 
+}
 
 @media screen and (max-width: 992px) {
- h1
- }
+  h1 {}
 }
 
 /* @media screen and (max-width: 768px) {
