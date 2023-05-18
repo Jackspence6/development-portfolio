@@ -28,12 +28,25 @@ h2 {
   font-family: "Courier New", Courier, monospace;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+h3 {
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  text-align: start;
+}
+
+h4 {
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 2px;
+  text-align: start;
+  font-weight: normal;
+  padding-left: 15px;
+  text-decoration: none;
 }
 
 nav {
@@ -116,6 +129,15 @@ aside {
   height: 1.2cm;
   text-align: center;
   justify-content: left;
+}
+
+.work-info {
+  display: inline;
+  background-color: grey;
+  height: 55px;
+  width: 12rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /******************************************/
