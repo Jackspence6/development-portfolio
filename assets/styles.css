@@ -352,7 +352,7 @@ aside {
   }
 
   p {
-    font-size: 10px;
+    font-size: 14px;
   }
   aside {
     float: none;
@@ -408,22 +408,22 @@ aside {
   }
 
   #contact-me1 {
-    width: 3cm;
+    width: 23%;
     height: 0.7cm;
   }
   
   #contact-me2 {
-    width: 3cm;
+    width: 23%;
     height: 0.7cm;
   }
   
   #contact-me3 {
-    width: 3cm;
+    width: 23%;
     height: 0.7cm;
   }
   
   #contact-me4 {
-    width: 4cm;
+    width: 23%;
     height: 0.7cm;
   }
 }
