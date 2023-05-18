@@ -263,6 +263,8 @@ aside {
   width: 4.5cm;
   text-align: center;
   height: 1cm;
+  margin-bottom: 5px;
+    margin-right: 2px;
 }
 
 #contact-me2 {
@@ -321,7 +323,7 @@ aside {
   #header-text {
     margin: 0%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
     top: 15rem;
   }
@@ -346,11 +348,11 @@ aside {
   h2 {
     text-align: center;
     margin-left: 40%;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   p {
-    font-size: 11px;
+    font-size: 9px;
   }
   aside {
     float: none;
