@@ -9,7 +9,7 @@
 /* Element Selectors */
 /******************************************/
 header {
-  height: 10cm;
+  height: 8cm;
   background-image: url(./images/candle.jpg);
   background-size: cover;
   width: 100%;
@@ -33,10 +33,12 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 nav {
-  background-color: black;
+  display: flex;
+  background-color: grey;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -53,49 +55,15 @@ section a {
   display: flex;
 }
 
-aside h2 {
+aside {
   float: left;
-  height: 4cm;
+  height: inherit;
   width: 4cm;
-  border-right: 0.08cm solid black;
+  border-right: 0.08cm solid grey;
   margin-top: 0.5cm;
   margin-left: 1.5cm;
   text-align: center;
   vertical-align: middle;
-}
-
-aside h3 {
-  float: left;
-  height: 20cm;
-  width: 4cm;
-  border-right: 0.08cm solid black;
-  margin-top: -19.5cm;
-  margin-right: 49cm;
-  text-align: center;
-  font-size: 35px;
-  font-family: "Courier New", Courier, monospace;
-}
-
-aside h4 {
-  float: left;
-  height: 2cm;
-  width: 4cm;
-  border-right: 0.08cm solid black;
-  margin-top: 0.5cm;
-  margin-left: 1.5cm;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 35px;
-  font-family: "Courier New", Courier, monospace;
-}
-
-p {
-  margin-top: 0.9cm;
-  margin-left: 7cm;
-  margin-right: 7cm;
-  font-family: monospace;
-  font-size: 15px;
-  margin-bottom: 10px;
 }
 
 /******************************************/
@@ -105,7 +73,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1889px;
   margin-top: 0.5cm;
   margin-left: 3cm;
   margin-right: 2cm;
@@ -116,28 +83,28 @@ p {
 
 .nav-items {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-color: rgb(156, 102, 64);
-  border-style: double;
+  border-color: white;
+  border-style: solid;
   width: 6rem;
   height: 25px;
-  background-color: bisque;
-  border-radius: 5cm;
+  background-color: rgb(79, 106, 85);
+  border-radius: 1cm;
   display: flex;
   margin-right: 1cm;
   justify-content: center;
   text-decoration: none;
-  color: #968e7f;
+  color: white;
   font-weight: bold;
 }
 
 .contact-me {
   display: flex;
-  align-content: center;
-  justify-content: space-evenly;
   flex-direction: row;
-  margin-right: 30cm;
-  position: relative;
-  bottom: -2rem;
+  flex-wrap: wrap;
+  height: 4cm;
+  width: auto;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
 .container-work a {
@@ -159,20 +126,32 @@ p {
   margin-right: 1cm;
 }
 
+#about-me {
+  display: flex;
+  font-family: monospace;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 151.17px;
+  margin-top: 0.5cm;
+  padding: 0.5cm;
+}
+
 #header-text {
-  color: #bfaf5c;
+  color: white;
   text-align: end;
   margin: 0%;
   position: relative;
-  top: 15rem;
-  font-family: fantasy;
-  font-size: 85px;
+  top: 12rem;
+  margin-right: 3rem;
+  font-family: monospace;
+  font-size: 70px;
 }
 
 #name {
   font-size: 2.8em;
   font-weight: bold;
-  background-color: rgb(110, 108, 95);
+  background-color: rgb(79, 106, 85);
   padding: 10px 40px 10px 40px;
   text-align: left;
   display: block;
@@ -260,8 +239,6 @@ p {
   background-size: cover;
   width: 4.5cm;
   text-align: center;
-  margin-right: 2cm;
-  margin-left: 78rem;
   height: 1cm;
 }
 
@@ -273,7 +250,6 @@ p {
   background-size: cover;
   width: 4.5cm;
   text-align: center;
-  margin-right: 2cm;
   height: 1cm;
 }
 
@@ -285,7 +261,6 @@ p {
   background-size: cover;
   width: 4.5cm;
   text-align: center;
-  margin-right: 2cm;
   height: 1cm;
 }
 
@@ -297,56 +272,11 @@ p {
   background-size: cover;
   width: 4.5cm;
   text-align: center;
-  margin-right: 2cm;
   height: 1cm;
-}
-
-#contact-me1 a {
-  background-color: aliceblue;
-  border-radius: 10px;
-}
-
-#contact-me2 a {
-  background-color: aliceblue;
-  border-radius: 10px;
-}
-
-#contact-me3 a {
-  background-color: aliceblue;
-  border-radius: 10px;
-}
-
-#contact-me4 a {
-  background-color: aliceblue;
-  border-radius: 10px;
 }
 
 /******************************************/
 /* Media queries */
 /******************************************/
 @media screen and (max-width: 992px) {
- nav { 
-  flex-direction: column;
-  margin-right: 0%;
- } 
-  #header-text {
-    position: relative;
-    text-align: center;
-}
-  p {
-    font-size: 75%;
-  }
- .container-work {
-  width: 100%;
- }
- aside h3 {
-  height: 20cm;
-  width: 4cm;
-  border-right: 0.08cm solid black;
-  margin-top: -19.5cm;
-  margin-right: 24.4cm;
-  text-align: center;
-  font-size: 35px;
-  font-family: "Courier New", Courier, monospace;
- }
 }
