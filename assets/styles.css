@@ -69,6 +69,7 @@ section a {
 }
 
 aside {
+  display: flex;
   float: left;
   height: inherit;
   width: 4cm;
@@ -300,5 +301,91 @@ aside {
 /******************************************/
 /* Media queries */
 /******************************************/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #name {
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+  }
+
+  #header-text {
+    margin: 0%;
+    text-align: center;
+  }
+
+  #nav-container {
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  #about-me {
+    margin-bottom: 15px;
+  }
+
+  .nav-items {
+    width: 7rem;
+    margin: 0%;
+    margin-top: 0.7rem;
+  }
+
+  h2 {
+    text-align: center;
+    margin-left: 40%;
+  }
+
+  aside {
+    float: none;
+    border-right: 0px;
+    border-bottom: 3px solid gray;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(228, 224, 224);
+    border-radius: 10px;
+  }
+
+  .container-work {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0%;
+  }
+
+  #main-box {
+    margin: 0%;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  #box2 {
+    margin: 0%;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  #box3 {
+    margin: 0%;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  #box4 {
+    margin: 0%;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  #box5 {
+    margin: 0%;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
